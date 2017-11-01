@@ -1,0 +1,112 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 359px;
+}
+.header img{
+    width:100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #CF5665;
+}
+.menu_cen{
+    width: 1123px;
+    height: 50px;
+    margin: 0 auto;
+}
+.menu_le{
+    float: left;
+    font-size: 14px;
+    color: white;
+    line-height: 50px;
+}
+.menu_ri{
+    float: right;
+    line-height: 50px;
+}
+.menu_ri li{
+    float: left;
+    margin-right: 31px;
+}
+.menu_ri a{
+    color: white;
+}
+.menu_ri .menu_ri_li{
+    margin-right: 0;
+}
+.content{
+    width: 1121px;
+    margin:64px auto;
+}
+.con_le{
+    width: 360px;
+    float: left;
+}
+.con_le input{
+    width: 358px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #CCCCCC;
+}
+.con_le p{
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+.con_le textarea{
+    width: 358px;
+    height: 174px;
+
+}
+.con_ri{
+    width: 749px;
+    height: 541px;
+    float: right;
+}
+.con_ri h3{
+    color: #c1343f;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.li{
+    width: 750px;
+    height: 67px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 24px;
+}
+.li:last-of-type{
+    border-bottom: none;
+}
+.li a{
+    padding: 0 10px;
+    height: 25px;
+    border-radius:2px;
+    line-height: 25px;
+    display:inline-block;
+    background-color: #5BC0DE;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.li img{
+    float: left;
+}
+.li span{
+    margin: 0 7px 0 11px;
+}
+.li p{
+    margin-left: 30px;
+}
+.btn{
+    width: 50px;
+    height: 20px;
+}
